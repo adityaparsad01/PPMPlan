@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Nanum Gothic Coding", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: aqua;
+  width: 100vw;
+  text-align: center;
+  padding: 5px;
+}
+
+.inputcontainer {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.inputcontainer input {
+  width: calc(100% - 40px);
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  height: 36px;
+  padding: 0 0 0 14px;
+  -webkit-appearance: none;
+  font-size: 14px;
+}
+.card {
+  margin-left: 20px;
+  text-align: center;
+}
